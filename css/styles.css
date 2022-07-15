@@ -1,31 +1,11 @@
-.row-header {
-  margin: 0px auto;
-  padding: 0px 0px;
-}
-.row-content {
-  margin: 0px auto;
-  padding: 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px;
-}
-.footer {
-  background-color: #051622;
-  margin: 0px auto;
-  padding: 20px 0px;
-  color: #DEB992;
-}
+
 .jumbotron {
   margin: 0px ;
   padding: 70px 30px;
   background-color: #051622;
-  color: #DEB992
-  ;
+  color: #DEB992;
 }
-address {
-  font-size: 80%;
-  margin: 0px;
-  color: #051622;
-}
+
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
@@ -34,12 +14,18 @@ body {
 .navbar-dark {
   background-color: #051622;
   color: #0f0f0f;
+ 
 }
 .navbar{
   color: #0f0f0f;
   width: 100%;
-  overflow: auto;
-}
+}  
+.navbar-social{
+
+  display: inline-block;
+  }
+  
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -53,7 +39,7 @@ body {
   margin-bottom: 30%;
   left: 0px;
   right: 0px;
-
+  opacity:0.7;
 }
 
 .carousel .carousel-item img {
@@ -88,9 +74,10 @@ body {
   color: #0f0f0f;
 }
 .navbar-nav {
-  float: center;
-  padding: 12px;
-  width: 33%;
+  padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 .fa.fa-instagram {
@@ -102,6 +89,26 @@ body {
   -webkit-background-clip: text;
 }
 
-.navbar-socials{
-  position: right;
+
+.nav-item{
+
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/street.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

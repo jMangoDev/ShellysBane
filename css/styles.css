@@ -20,10 +20,7 @@ body {
   color: #0f0f0f;
   width: 100%;
 }  
-.navbar-social{
 
-  display: inline-block;
-  }
   
 
 .tab-content {
@@ -69,15 +66,20 @@ body {
   width: 200px;
   height: auto;
 }
+
+.navleft {
+  float:left;
+  width: 100%;
+}
+.navright {
+ 
+ position: relative;
+
+}
+
 .badge {
   background-color: #1BA098;
   color: #0f0f0f;
-}
-.navbar-nav {
-  padding: 0;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
 }
 
 .fa.fa-instagram {
